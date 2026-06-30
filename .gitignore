@@ -1,0 +1,11 @@
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+mysql_data/
+uploads/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db

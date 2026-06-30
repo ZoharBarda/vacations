@@ -1,0 +1,31 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -w",
+    "dev": "nodemon --watch dist --exec node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^26.0.1",
+    "body-parser": "^2.3.0",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@types/multer": "^2.1.0",
+    "bcrypt": "^6.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.2.0",
+    "mysql2": "^3.22.5"
+  }
+}
